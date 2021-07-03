@@ -14,4 +14,6 @@
   import '../app.postcss'
 </script>
 
-<slot />
+<main class="grid justify-center">
+  <slot />
+</main>

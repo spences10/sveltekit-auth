@@ -12,21 +12,41 @@
   export let user
 </script>
 
-<h1>Welcome to SvelteKit Auth</h1>
-<p>
-  Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the
-  documentation
+<h1 class="text-4xl mt-5 mb-11 text-gray-900">
+  Welcome to SvelteKit Auth
+</h1>
+<p class="text-xl text-gray-900 mb-5">
+  A simple OAuth example with SvelteKit
 </p>
 
-<pre>{JSON.stringify(user, null, 2)}</pre>
+<p class="text-xl text-gray-900 mb-5">
+  Try accessing the <code
+    ><a class="text-blue-600 hover:underline" href="/admin">admin</a
+    ></code
+  > route
+</p>
 
 {#if user}
-  <h2>Welcome {user}</h2>
+  <h2 class="text-2xl mb-5 text-gray-900">Welcome {user}</h2>
   <a href="/logout">
-    <button>Logout</button>
+    <button
+      class="bg-purple-700 px-8 py-2 rounded-lg text-white font-bold shadow-md mb-5"
+      >Logout</button
+    >
   </a>
 {:else}
+  <h2 class="text-2xl mb-5 text-gray-900">You're logged out</h2>
   <a href="/login">
-    <button>Login using Github</button>
+    <button
+      class="bg-purple-700 px-8 py-2 rounded-lg text-white font-bold shadow-md mb-5"
+      >Login using Github</button
+    >
   </a>
 {/if}
+
+<p class="text-xl text-gray-900 mb-5">
+  Visit <a
+    class="text-blue-600 hover:underline"
+    href="https://kit.svelte.dev">kit.svelte.dev</a
+  > to read the documentation
+</p>
