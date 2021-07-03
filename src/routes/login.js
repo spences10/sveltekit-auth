@@ -3,7 +3,7 @@ import { CLIENT_ID } from '$lib/environment-variables'
 const target = 'https://github.com/login/oauth/authorize'
 const clilentId = CLIENT_ID
 
-export async function get(req) {
+export async function get() {
   const sessionId = '3231'
   return {
     status: 302,

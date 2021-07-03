@@ -11,9 +11,11 @@ export async function get(req) {
 
   const token = await getToken(code)
   const user = await getUser(token)
+  req.locals.user = user.login
 
   return {
-    body: JSON.stringify(user, null, 2),
+    status: 302,
+    headers: { location: '/' },
   }
 }
 

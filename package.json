@@ -12,6 +12,7 @@
   "devDependencies": {
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.2.6",
+    "cookie": "^0.4.1",
     "cssnano": "^5.0.6",
     "env-cmd": "^10.1.0",
     "node-fetch": "^2.6.1",
