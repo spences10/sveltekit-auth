@@ -16,7 +16,6 @@
     "cookie": "^0.4.1",
     "cssnano": "^5.0.6",
     "env-cmd": "^10.1.0",
-    "node-fetch": "^2.6.1",
     "postcss": "^8.3.5",
     "postcss-load-config": "^3.1.0",
     "prettier": "~2.3.2",
