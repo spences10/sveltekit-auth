@@ -22,7 +22,7 @@
     "prettier-plugin-svelte": "2.4.0",
     "svelte": "3.43.0",
     "svelte-preprocess": "4.9.5",
-    "tailwindcss": "2.2.15",
+    "tailwindcss": "2.2.16",
     "uuid": "8.3.2"
   }
 }
