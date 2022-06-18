@@ -14,7 +14,7 @@
     "@sveltejs/kit": "next",
     "autoprefixer": "10.4.7",
     "cookie": "0.5.0",
-    "cssnano": "5.1.11",
+    "cssnano": "5.1.12",
     "env-cmd": "10.1.0",
     "postcss": "8.4.14",
     "postcss-load-config": "4.0.1",
